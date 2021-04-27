@@ -12,7 +12,15 @@ def insertion_sort(array):
         i += 1
     return array
 # array= [99, 45, 35, 40, 16, 50, 11, 7, 90]
+# step_1
 # i =1 
+# to_insert = array[1] =45
+# j = i =1
+# while j>0 and array[1-1]=99>to_insert
+# array[1] = array[0]=99
+# j=1 j-1=0 out of the while Loop
+# array[0] = 45
+# [45, 99, 35, 40, 16, 50, 11, 7, 90]
 
 # after step_1
 # array_1= [45, 99, 35, 40, 16, 50, 11, 7, 90]
